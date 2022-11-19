@@ -1,0 +1,110 @@
+@import url(../css/predeterminado.css);
+
+.header-detalles{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    font-size: 2rem;
+    z-index: 2;
+    margin: 0 95%;
+}
+.header-detalles i{
+    color: #fff;
+}
+.contenedor-detalles__seccion1{
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+.seccion1-presentacion{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.seccion1-imagen{
+    width: 100%;
+    height: 100%;
+}
+.seccion1-imagen img{
+    width: 100%;
+}
+.contenedor-detalles__seccion2{
+    display: flex;
+    width: 100%;
+}
+.contenedor-detalles .mockups{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion2-imagen{
+    background-image: url(../../img/logo/celular.png);
+    height: 100vh;
+    width: 75%;
+}
+.seccion2-texto{
+    width: 100%;
+    padding: 30px;
+}
+.seccion2-imagen iframe{
+    text-align: center;
+    width: 90%;
+    /* z-index: -1; */
+    height: 98%;
+    border-radius: 25px;
+}
+.contenedor-detalles__seccion3{
+    width: 100%;
+}
+.seccion3-imagen iframe{
+    text-align: center;
+    width: 85%;
+    /* z-index: -1; */
+    height: 90%;
+    border-radius: 25px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) { 
+    .contenedor-detalles__seccion1{
+        flex-direction: column;
+        height: max-content;
+    }
+    .contenedor-detalles .mockups{
+        display: none;
+    }
+}
+@media (max-width: 600px) {     
+    .content{
+        margin: 0;
+    }
+    #detalles{
+        width: 100%;
+    }
+    .seccion1-presentacion{    
+        height: max-content;
+    }
+
+    .seccion2-imagen iframe{
+        display: none;
+    }
+    .seccion2-texto{
+        padding: 0;
+    }
+    .seccion2-texto ul li{
+        font-size: .8rem;
+    }
+}
