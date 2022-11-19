@@ -1,0 +1,19 @@
+Nombre: Plantilla HTML Gratuita: Basco
+Creador: HTML Design
+membresia: 2
+precio:
+link imagen: https://plantillashtmlgratis.com/wp-content/uploads/2019/images/page282/basco.jpeg
+link iframe: https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page282/basco/
+link descarga: https://plantillashtmlgratis.com/wp-content/themes/helium-child/descargas/page282/basco.zip
+
+
+
+
+
+Nombre: Plantillas HTML/CSS Gratis para Descargar: Gymso Fitness
+Creador: Tooplate
+membresia: 1
+precio:
+link imagen: https://plantillashtmlgratis.com/wp-content/uploads/2019/images/page273/gymso-fitness.jpeg
+link iframe: https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page273/gymso-fitness/
+link descarga: https://plantillashtmlgratis.com/wp-content/themes/helium-child/descargas/page273/gymso-fitness.zip
